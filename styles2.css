@@ -1,0 +1,45 @@
+body{
+	font-family:Aldo;
+	background-color: black;
+}
+
+@font-face {
+	font-family:Aldo:
+	src:url("Aldo.otf");
+}
+
+header{
+	float: left;
+	width: 100%;
+	box-shadow: 10px 10px 10px 50px #a91654;
+	background-color: #f91173;
+	border-radius: 10%;
+}
+
+
+
+p:first-child {
+	
+}
+
+article {
+	height: 70%;
+	width: 45%;
+	border: 20px;
+	margin: 10px;
+	float:left;
+	text-align: center;
+	color: white;
+	background-color: #300b1b;
+	font-size: 2em;
+	border-radius: 10px;
+
+}
+
+
+article:nth-child(even){
+	background-color: #e89fbe;
+	float: right;
+}
+
+
